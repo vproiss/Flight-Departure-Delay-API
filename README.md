@@ -18,6 +18,10 @@ git clone https://github.com/vproiss/Flight-Departure-Delay-API.git
 ```
 
 ### 2. Create an environment:
+```sh
+conda create --name flight-api python 3.9
+conda activate flight-api
+```
 
 ### 3. Install the packages:
 ```sh
@@ -36,3 +40,11 @@ pip install -r requirements.txt
 ├── requirements.txt
 └── README.md
 ```
+
+### 5. Run the Flask application
+```sh
+python3 app.py
+```
+
+### 6. Access the web interface:
+Navigate to `http://127.0.0.1:5000/` in your browser. 
