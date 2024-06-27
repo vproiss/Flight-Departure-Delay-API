@@ -10,6 +10,18 @@ The Flight Departure Delay API is a web server application that fetches the flig
 * Includes a user-friendly web interface to browse the flight data.
 * Peridically updates the data so it remains current.
 
+## Installation
+
+```git clone https://github.com/vproiss/Flight-Departure-Delay-API.git```
+
+## Create and environment
+
+## Install the packages
+
+```sh
+pip install -r requirements.txt
+```
+
 ## Directory structure
 ```
 .
@@ -22,9 +34,3 @@ The Flight Departure Delay API is a web server application that fetches the flig
 ├── requirements.txt
 └── README.md
 ```
-
-## Installation
-
-```git clone https://github.com/vproiss/Flight-Departure-Delay-API.git```
-
-

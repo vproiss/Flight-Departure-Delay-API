@@ -1,0 +1,5 @@
+Flask==2.0.3
+pandas==1.4.2
+requests==2.27.1
+APScheduler==3.9.1
+gunicorn==20.1.0  # If you plan to deploy the application on Heroku or similar services
